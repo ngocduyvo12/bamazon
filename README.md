@@ -6,7 +6,7 @@ All tier of this site will require mysql database to run. The database I'm going
 
 The javascript file **bamazon_customer.js** will be used by customer to buy item from the database.
 
-Here is a link showing the app working: 
+Here is a link showing the app working: https://youtu.be/-lwovzuEfaQ
 
 **bamazon_customer.js** require mysql and inquirer npm. The app will start by initialize the connection to mysql and then call the function *start()*.
 
@@ -16,7 +16,7 @@ This app will run until exit is selected.
 
 **bamazon_manager** is a little more advanced.
 
-Here is the link of bamazon_manager: 
+Here is the link of bamazon_manager: https://youtu.be/nQDFsm-OSm8
 
 This js file will also require mysql and inquirer npm. After connecting to mysql database, the app will call *start()* function. THis function will then prompt several options in form of list. The options are: 
 

@@ -74,8 +74,15 @@ function lowInvent() {
                 lowItem.push(data[i])
             }
         }
-        console.table(lowItem)
-        start()
+
+        if(lowItem.length < 1){
+            console.log(`\nThere is no item running low on stock.\n`)
+            start()
+        }else{
+
+            console.table(lowItem)
+            start()
+        }
     })
 }
 
