@@ -108,14 +108,11 @@ function addInvent() {
                         message: "How many do you want to add?"
                     }
                 ]).then(function (answer) {
-                    // console.log(`it hit`)
                     var chosenItem;
                     // var chosenQuantity;
                     for (var i = 0; i < data.length; i++) {
-                        // console.log(data[i].id, answer.itemId)
                         if (data[i].id === parseInt(res.itemId)) {
                             chosenItem = data[i]
-                            // console.log(data[i])
                         }
                     }
                     //get total of item after add
