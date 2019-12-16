@@ -72,7 +72,6 @@ function purchaseProduct() {
                     chosenItem = data[i]
                 }
             }
-            // console.log(chosenItem)
             // if quantity > Stock then purchase successful:
             if (chosenItem.Stock >= answer.quantity) {
                 //let user know purchase is successful:
