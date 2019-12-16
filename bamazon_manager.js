@@ -94,10 +94,7 @@ function addInvent() {
                 type: "input",
                 name: "itemId",
                 message: "Enter the Id of the item you want to add (press 'q' to exist)"
-                // validate: function( value ) {
-                //     var valid = !isNaN(parseFloat(value));
-                //     return valid || "Please enter a number";
-                // }
+
             }
         ]).then(function (res) {
             if (res.itemId === "q") {
