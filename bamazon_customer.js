@@ -114,7 +114,6 @@ function updateProduct(value, itemId) {
             if (err) throw err;
             console.log(res.affectedRows + " products updated!\n");
             // Call deleteProduct AFTER the UPDATE completes
-            // deleteProduct();
         }
     );
 
