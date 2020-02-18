@@ -20,7 +20,7 @@ connection.connect(function (err) {
     start();
 });
 
-
+//start function when the app start
 function start() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
