@@ -129,6 +129,7 @@ function addInvent() {
     })
 }
 
+//function for updating the database
 function updateProduct(value, itemId) {
     console.log("\nUpdating store's database...\n");
     var query = connection.query(
@@ -151,6 +152,7 @@ function updateProduct(value, itemId) {
 
 }
 
+//function for adding new product to inventory
 function addNewProduct() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
