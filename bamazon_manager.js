@@ -25,6 +25,7 @@ function start() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
 
+        //first inquirer for the user to select different options
         inquirer.prompt([
             {
                 type: "list",
