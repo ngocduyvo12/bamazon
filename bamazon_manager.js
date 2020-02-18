@@ -65,6 +65,7 @@ function viewProduct() {
     })
 }
 
+//function for view all items with quantity less than 5
 function lowInvent() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
