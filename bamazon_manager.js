@@ -88,6 +88,7 @@ function lowInvent() {
     })
 }
 
+//function to add more item to inventory
 function addInvent() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
