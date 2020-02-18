@@ -26,6 +26,7 @@ function start() {
         if (err) throw err;
         console.table(data)
 
+        //first inquirer prompt for user
         inquirer.prompt([
             {
                 type: "list",
