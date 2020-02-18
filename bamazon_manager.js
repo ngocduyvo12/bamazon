@@ -24,7 +24,6 @@ connection.connect(function (err) {
 function start() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
-        // console.table(data)
 
         inquirer.prompt([
             {
