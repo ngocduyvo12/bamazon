@@ -56,6 +56,7 @@ function start() {
     })
 }
 
+//function for viewing all items in sql
 function viewProduct() {
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
