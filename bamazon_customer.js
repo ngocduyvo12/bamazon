@@ -49,6 +49,7 @@ function start() {
 }
 
 function purchaseProduct() {
+    //make connection to sql
     connection.query(`SELECT * FROM items`, function (err, data) {
 
         inquirer.prompt([
