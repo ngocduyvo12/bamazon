@@ -52,6 +52,7 @@ function purchaseProduct() {
     //make connection to sql
     connection.query(`SELECT * FROM items`, function (err, data) {
 
+        //second inquirer to have the user select id and quantity
         inquirer.prompt([
             {
                 type: "number",
