@@ -84,8 +84,6 @@ function purchaseProduct() {
                 var remaining = parseInt(chosenItem.Stock) - parseInt(answer.quantity)
 
                 //calculate money spent
-                // console.log(chosenItem.price)
-                // console.log(answer.quantity)
                 var moneySpent = parseInt(answer.quantity) * parseInt(chosenItem.Price)
                 console.log(`\nYou purchased ${answer.quantity} ${chosenItem.Product}. Your total is: ${moneySpent}\n`)
 
