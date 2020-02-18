@@ -99,7 +99,7 @@ function purchaseProduct() {
     })
 }
 
-
+//function to update items quantity in sql
 function updateProduct(value, itemId) {
     console.log("Updating store's database...\n");
     var query = connection.query(
