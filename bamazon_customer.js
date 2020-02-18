@@ -21,6 +21,7 @@ connection.connect(function (err) {
 });
 
 function start() {
+    //make connection to sql database
     connection.query(`SELECT * FROM items`, function (err, data) {
         if (err) throw err;
         console.table(data)
